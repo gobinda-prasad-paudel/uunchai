@@ -110,7 +110,7 @@ html {
 .main_content h1{
   font-size: 120px;
   text-align: center;
-  background: url(/images/text_bg.png) ;
+  background: url(text_bg.png) ;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
