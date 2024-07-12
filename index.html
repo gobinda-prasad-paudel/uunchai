@@ -1,1127 +1,331 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  
-  <link rel="stylesheet" crossorigin="anonymous"
-    href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly91dW5jaGFpLm9yZy8" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-51BNJL56NT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-51BNJL56NT");
-  </script>
-
-  <!-- meta tags -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
-  <meta property="og:title" content="Team Quantum(Uunchai)" />
-  <meta name="keywords" content="Team Quantum (uunchai, nepal)" />
-  <meta property="og:url" content="https://www.uunchai.org/" />
-  <meta property="og:image" />
-  <meta property="og:description" content="Exposure for Innovation." />
-  <meta property="og:type" content="website" />
-  <meta name="next-head-count" content="9" />
-  <meta name="theme-color" content="#000" />
-  <title>Team Quantum (Uunchai)</title>
-
-  <!-- favicon -->
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.webp"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.webp"
-    /> -->
-  <!-- <link rel="manifest" href="assets/favicon/site.webmanifest" /> -->
-  <!-- <link rel="shortcut icon" href="assets/favicon/favicon.ico" /> -->
-  <!-- <meta
-      name="msapplication-config"
-      content="assets/favicon/browserconfig.xml"
-    /> -->
-  <meta name="msapplication-TileColor" content="#ffffff" />
-
-  <!-- css -->
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-  <link rel="stylesheet" href="main_style.css" />
-  <link rel="stylesheet" href="responsive.css" />
-
-  <!-- icons -->
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,700&family=Grape+Nuts&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nixie+One&family=Quicksand:wght@300..700&family=Raleway:wght@100;200;300;400;500;600;700;800&family=Roboto+Slab:wght@100..900&display=swap"
-    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Team Quantum</title>
 </head>
 
 <body>
-  <div id="home" class="home-section scrollspy">
-    <div class="home-background">
-      <div class="navbar">
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Uunchai</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="las la-bars"></i></a>
-            <ul class="hide-on-med-and-down">
-              <li class="waves-effect"><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <!-- <li><a href="#project">Projects</a></li> -->
-              <!-- <li><a href="#">Testimonials</a></li> -->
-              <li><a href="#team">Team</a></li>
-              <!--   <li><a href="#faq">FAQs</a></li> -->
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-          </div>
-        </nav>
-
-        <ul class="sidenav sidenav-close" id="mobile-demo">
-          <li>
-            <a href="#home" class="waves-effect"><i class="las la-home"></i> Home</a>
-          </li>
-          <li>
-            <a href="#about" class="waves-effect"><i class="las la-info-circle"></i> About</a>
-          </li>
-          <!-- <li>
-              <a href="#project" class="waves-effect"
-                ><i class="las la-project-diagram"></i> Projects</a
-              >
-            </li> -->
-          <!-- <li>
-              <a href="#" class="waves-effect"
-                ><i class="las la-quote-right"></i> Testimonials</a
-              >
-            </li> -->
-          <li>
-            <a href="#team" class="waves-effect"><i class="las la-users"></i> Team</a>
-          </li>
-          <!-- <li>
-              <a href="#faq" class="waves-effect"
-                ><i class="las la-question-circle"></i> FAQs</a
-              >
-            </li> -->
-          <li>
-            <a href="#contact" class="waves-effect"><i class="lar la-id-card"></i> Contact Us</a>
-          </li>
+  <main>
+    <nav class="nav_bar_desktop">
+      <img src="/images/logo_without_text.png" alt="logo">
+      <div>
+        <ul class="nav_elements nav_text_color">
+          <li><a href="#" target="_blank">Home</a></li>
+          <!-- <li><a href="#" target="_blank">Projects</a></li> -->
+          <li><a href="#main_container">Team</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="https://www.github.com" target="_blank" class="github">Github</a></li>
         </ul>
       </div>
+    </nav>
 
-      <div class="home-info">
-        <h1>Team Quantum</h1>
-        <p> One of the team from <b> Uunchai (उँचाई) (2024) </b></p>
-        <p>Exposure for Innovation.</p>
+    <div class="main_content">
+      <h1 class="text-6xl font-sans pm_color">Team Quantaverse</h1>
+      <!--   <p class="text-xl">We are Team Quantum, a dedicated group within the Uunchai program, focused on mastering the
+        intricacies of quantum computing. Our mission is to delve deep into this cutting-edge field and develop innovative
+        projects that harness the power of quantum technology. Through collaboration, rigorous learning, and practical
+        application, we aim to contribute significantly to the advancements in quantum computing.</p> -->
+      <p class="text-xl">
+        Team Quantum is a dynamic cohort within the Uunchai program, dedicated to exploring and mastering the
+        complexities
+        of quantum computing. As part of this innovative initiative, our team is driven by a shared passion for pushing
+        the boundaries of traditional computing paradigms. Quantum computing represents the next frontier in
+        computational
+        power, promising exponential leaps in processing capabilities that could revolutionize fields from cryptography
+        to
+        drug discovery.
+      </p>
+      <p class="text-xl">
+        Our journey within the Uunchai program is marked by a commitment to learning and collaboration. We engage with
+        cutting-edge theories and technologies underpinning quantum mechanics, seeking not only to understand the
+        foundational principles but also to harness them for practical applications. Through rigorous study and hands-on
+        experimentation, we aim to bridge theoretical knowledge with real-world solutions, envisioning projects that
+        leverage quantum computing to tackle complex problems.
+      </p>
+
+      <div class="buttons_main">
+        <a href="#project">Projects</a>
+        <!-- <a href="#">News</a> -->
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="main_container">
+      <h1>Meet Our Team</h1>
+      <div class="meet_our_members">
+        <div class="section-subtitle">
+          <h2>Mentors</h2>
+        </div>
         <div class="container">
           <div class="row">
-            <div class="home-info-btn">
-              <a href="#team" target="_blank" class="waves-effect waves-light btn-large">Out Team</a>
-
-              <a href="#" target="_blank" class="waves-effect waves-light btn-large">Project</a>
-            </div>
-          </div>
-          <!-- <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quod commodi, dolores asperiores optio quam dolorum repudiandae ipsam suscipit vel odit corporis mollitia magni earum, delectus cum repellat? Saepe consequuntur explicabo harum cupiditate officiis numquam ipsam vero blanditiis. Eos, a!</u></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="about" class="about-section scrollspy">
-    <div class="section-title">
-      <h4>About</h4>
-      <!-- <div class="title-design-shape"></div> -->
-    </div>
-
-    <div class="row">
-      <div class="col l8 s12 offset-l2">
-        <div class="about-section-info">
-          <!-- <p>
-              Uunchai (उँचाई) is a six-week virtual project-based learning summer program organized 
-              by the FountED Foundation in collaboration with student mentors from prestigious 
-              universities in the USA and Nepal, including Harvard, UPenn, Duke, Vanderbilt, 
-              F&M, Lehigh, Mount Holyoke, Smith, and Institute of Engineering (IOE). During the 
-              program, students will be chosen by mentors and organizers and assigned to teams 
-              based on their interests. Throughout the six weeks, selected students (referred 
-              to as cohorts) will work on their projects under the guidance of their assigned 
-              mentors. Upon completion of the project, recommended students will have the 
-              opportunity to intern at partner companies such as E-Sewa, Upaya:, and 
-              Nepal Tea Collective, and many more.
-            </p> -->
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quam maiores, eos dicta officia vero, omnis
-            provident aliquam inventore quidem ipsum! Quia natus officiis delectus vitae optio placeat ducimus sed
-            beatae assumenda. Dolore corporis, omnis accusamus quos veritatis assumenda enim autem laborum voluptatum
-            optio illum quia nulla? Enim sit ab, tempora quaerat fugiat, adipisci expedita nulla nesciunt, tempore iure
-            neque ex fuga. Ullam ut possimus accusamus adipisci, recusandae excepturi nobis, eum delectus provident
-            cumque necessitatibus doloribus eos, quis unde libero nemo vitae officia corrupti illum fugit a at veniam!
-            Nostrum facere vitae consectetur qui a rerum consequuntur corporis culpa quae maxime? Necessitatibus
-            veritatis quibusdam alias nihil blanditiis vel aperiam quos enim!</p>
-
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptas asperiores sunt enim, impedit
-            omnis et sed adipisci, repellat exercitationem vero consequuntur quisquam eos eius laboriosam facilis iste
-            dicta voluptatem. Voluptatibus nulla illo alias ex aliquid.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="counter-section">
-      <div class="counter-row">
-        <div class="row center">
-          <div class="col l4 s12">
-            <div class="counter-box" id="counters_1">
-              <i class="las la-map-marker"></i>
-              <span class="count-title">Participated from cities</span>
-              <div class="counter count-num" data-TargetNum="15" data-Speed="2000">
-                0
+            <div class="col l4 s12">
+              <div class="team-card modal-trigger" data-target="yubraj">
+                <div class="team-card-img">
+                  <img
+                    src="https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg"
+                    alt="Not Available" />
+                </div>
+                <div class="team-card-info">
+                  <h6>Mentor</h6>
+                  <h4>Yubraj Bhandari</h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col l4 s12">
-            <div class="counter-box" id="counters_2">
-              <i class="las la-users"></i>
-              <span class="count-title">Numbers of students</span>
-
-              <div class="counter count-num" data-TargetNum="97" data-Speed="2000">
-                6
-              </div>
-            </div>
-          </div>
-          <div class="col l4 s12">
-            <div class="counter-box" id="counters_3">
-              <i class="las la-project-diagram"></i>
-              <span class="count-title">Total Projects</span>
-
-              <div class="counter count-num" data-TargetNum="18" data-Speed="2000">
-                1
+            <div class="col l4 s12">
+              <div class="team-card modal-trigger" data-target="diya">
+                <div class="team-card-img">
+                  <img
+                    src="https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg"
+                    alt="Not Available" />
+                </div>
+                <div class="team-card-info">
+                  <h6>Mentor</h6>
+                  <h4>Diya Pandey</h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!--  <div class="application-section">
-      <div class="application-background">
-        <div class="application-section-info">
-          <div class="container">
-            <div class="row">
-              <h1>Applications for 2024 cycle is closed!</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
- -->
-  <div id="team" class="team-section scrollspy">
-    <div class="section-title">
-      <h4>Meet Team Quantum</h4>
-    </div>
-
-    <!-- <div class="section-subtitle">
-        <h5>Organizers</h5>
-      </div> -->
-    <div class="section-subtitle">
-      <h5>Out Mentors</h5>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col l4 s12">
-          <div class="team-card modal-trigger" data-target="yubraj">
-            <div class="team-card-img">
-              <img src="uunchai.org/assets/img/organizers/abishkar.jpg" alt="Not Available" />
-            </div>
-
-            <div class="team-card-info">
-              <h6>Mentor</h6>
-              <h4>Yubraj Bhandari</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 s12">
-          <div class="team-card modal-trigger" data-target="diya">
-            <div class="team-card-img">
-              <img src="uunchai.org/assets/img/organizers/abishkar.jpg" alt="Not Available" />
-            </div>
-
-            <div class="team-card-info">
-              <h6>Mentor</h6>
-              <h4>Diya Pandey</h4>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div id="yubraj" class="modal">
-        <div class="modal-content">
-          <div class="modal-img">
-            <img src="uunchai.org/assets/img/organizers/bibek.jpg" alt="" />
-            <div class="close-btn modal-close">
-              <i class="material-icons">close</i>
-            </div>
-          </div>
-          <div class="modal-content-info">
-            <h6>Mentor</h6>
-            <h4>Yubraj Bhandari</h4>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis earum delectus omnis illo ipsam iure
-              molestias quae, qui nam dolorem doloribus ipsa quas dicta cum rerum aperiam deleniti suscipit, rem
-              repudiandae laudantium aliquid accusamus. Sunt, voluptatum. Ipsa alias cupiditate rem numquam quam.
-              Necessitatibus quisquam rerum quod veritatis asperiores, pariatur qui ducimus ipsa, enim, porro aut. Nulla
-              obcaecati explicabo molestiae recusandae nam saepe omnis error, dolor excepturi ipsam, voluptatibus quasi
-              nihil, sequi culpa ratione vero itaque quisquam deleniti maiores? Mollitia rerum possimus hic similique,
-              id blanditiis harum!
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="diya" class="modal">
-        <div class="modal-content">
-          <div class="modal-img">
-            <img src="uunchai.org/assets/img/organizers/bibek.jpg" alt="" />
-            <div class="close-btn modal-close">
-              <i class="material-icons">close</i>
-            </div>
-          </div>
-          <div class="modal-content-info">
-            <h6>Mentor</h6>
-            <h4>Diya Pandey</h4>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis earum delectus omnis illo ipsam iure
-              molestias quae, qui nam dolorem doloribus ipsa quas dicta cum rerum aperiam deleniti suscipit, rem
-              repudiandae laudantium aliquid accusamus. Sunt, voluptatum. Ipsa alias cupiditate rem numquam quam.
-              Necessitatibus quisquam rerum quod veritatis asperiores, pariatur qui ducimus ipsa, enim, porro aut. Nulla
-              obcaecati explicabo molestiae recusandae nam saepe omnis error, dolor excepturi ipsam, voluptatibus quasi
-              nihil, sequi culpa ratione vero itaque quisquam deleniti maiores? Mollitia rerum possimus hic similique,
-              id blanditiis harum!
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="section-subtitle">
-      <h5>Participants</h5>
-    </div>
-
-    <div class="container">
-      <div class="row" id="participants">
-
-      </div>
-
-
-      <!-- <div class="row">
-          <div class="col l4 s12">
-            <div class="team-card modal-trigger" data-target="mukesh">
-              <div class="team-card-img">
-                <img
-                  src="uunchai.org/assets/img/organizers/mukesh.jpg"
-                  alt="Not Available"
-                />
-              </div>
-
-              <div class="team-card-info">
-                <h6>Mentor</h6>
-                <h4>Manish Acharya</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col l4 s12">
-            <div class="team-card modal-trigger" data-target="manish">
-              <div class="team-card-img">
-                <img
-                  src="uunchai.org/assets/img/organizers/oshin.jpg"
-                  alt="Not Available"
-                />
-              </div>
-
-              <div class="team-card-info">
-                <h6>Mentor</h6>
-                <h4>Rodin Bantawa</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col l4 s12">
-            <div class="team-card modal-trigger" data-target="prakriti">
-              <div class="team-card-img">
-                <img
-                  src="uunchai.org/assets/img/organizers/prakriti.jpg"
-                  alt="Not Available"
-                />
-              </div>
-
-              <div class="team-card-info">
-                <h6>Mentor</h6>
-                <h4>Ruby Sapkota</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col l4 s12">
-            <div class="team-card modal-trigger" data-target="mukesh">
-              <div class="team-card-img">
-                <img
-                  src="uunchai.org/assets/img/organizers/mukesh.jpg"
-                  alt="Not Available"
-                />
-              </div>
-
-              <div class="team-card-info">
-                <h6>Mentor</h6>
-                <h4>Saisha Shrestha</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col l4 s12">
-            <div class="team-card modal-trigger" data-target="manish">
-              <div class="team-card-img">
-                <img
-                  src="uunchai.org/assets/img/organizers/oshin.jpg"
-                  alt="Not Available"
-                />
-              </div>
-
-              <div class="team-card-info">
-                <h6>Mentor</h6>
-                <h4>Yubraj Bhandari</h4>
-              </div>
-            </div>
-          </div>
-          
-        </div> -->
-
-      <!-- <div id="asmita" class="modal">
-        <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/asmita.jpeg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Asmita Gautam</h4>
-
-              <p>
-                Asmita is a software engineer at Microsoft. She graduated from
-                Smith College with a double major in Computer Science and
-                Engineering Sciences. She’s passionate about social justice and
-                has volunteered for women’s organizations throughout college and
-                in her professional career. In her free time, Asmita enjoys
-                reading non-fiction, singing, playing instruments, dancing,
-                traveling, skiing, hiking and paddle boarding.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="ishan" class="modal">
-          <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/ishan.jpg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Ishan Pakuwal</h4>
-
-              <p>
-                Ishan graduated from MIT with a degree in Computer Science and
-                Engineering and double minors in Statistics and Data Science and
-                in Economics. He currently works as a Software Engineer at
-                Microsoft. He is an experimenter and a free thinker, often
-                looking for optimizations to problems he sees or encounters. In
-                his free time, you can find him enjoying a cup of tea,
-                ruminating over a game of chess, tinkering with new tech, or
-                strolling at a random park taking pictures.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="kripa" class="modal">
-          <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/kripa.jpeg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Kripa Shrestha</h4>
-
-              <p>
-                Manish Acharya is a passionate self-taught Software Developer
-                based in Nepal. He specializes in building high-quality mobile,
-                desktop, and web applications. He aims to use his
-                technical/programming skills to connect different aspects of
-                society and help people. The same motivation led him to found
-                RajGyan, through which he is trying to advocate for Period
-                Poverty in Nepal using his RajGyan App and other digital
-                platforms. He is currently working as a Project Consultant and
-                Developer in Medical Software at Gurzu Inc. Manish also has a
-                keen interest in Competitive Programming. In his free time, he
-                enjoys sketching, designing, and animating fictional characters.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="mukesh" class="modal">
-          <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/mukesh.jpg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Mukesh Ghimire</h4>
-
-              <p>
-                Mukesh is a physicist who recently finished his doctorate from
-                NYU (New York University). He earned his bachelor's in science
-                from Tufts University, majoring in physics and mathematics.
-                During his doctoral studies, he specialized in experimental high
-                energy physics, and his thesis was on a search for hypothetical
-                millicharged particles at the Large Hadron Collider (which is
-                where the photograph above was taken). Passionate about
-                education, Mukesh has taught several courses at NYU and done
-                some outreach work in Nepal. Currently residing in New York
-                City, Mukesh enjoys trying different restaurants and bars in the
-                city in his free time. When he is not out in the concrete
-                wilderness, he enjoys singing, playing guitar, chess, and video
-                games.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="oshin" class="modal">
-          <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/oshin.jpg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Oshin Bista</h4>
-
-              <p>
-                Oshin is a New York City-based researcher. She completed her
-                Bachelor's in Anthropology from Middlebury College and is
-                pursuing a Master's in Sociocultural Anthropology at Columbia
-                University. Focusing on the Balkans and Nepal, her research
-                projects explore language, migration, "neoliberalism", and
-                corruption-related questions. She has worked with nonprofits,
-                policy analysts and media production teams in Nepal, primarily
-                at the intersections of education, international development and
-                cultural transformation/s. She loves music, art, dragonflies and
-                talking about mental health.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="prakriti" class="modal">
-          <div class="modal-content">
-            <div class="modal-img">
-              <img src="uunchai.org/assets/img/organizers/prakriti.jpg" alt="" />
-              <div class="close-btn modal-close">
-                <i class="material-icons">close</i>
-              </div>
-            </div>
-            <div class="modal-content-info">
-              <h6>Mentor</h6>
-              <h4>Prakriti Shrestha</h4>
-
-              <p>
-                Prakriti works in public health research at Massachusetts
-                General Hospital. She graduated from Mount Holyoke College in
-                2021 with a double major in Biology and Data Science. Her
-                current research focuses on the cost-effectiveness of HIV and TB
-                interventions in sub-Saharan Africa. Based in Boston, she enjoys
-                cooking and traveling around with loved ones and is interested
-                in wide-ranging topics like medicine, culture, identity,
-                psychology, and more.
-              </p>
-            </div>
-          </div>
-        </div> -->
-    </div>
-  </div>
-
-  <div id="faq" class="faq-section scrollspy">
-    <div class="section-title">
-      <h4>FAQs</h4>
-    </div>
-
-    <div class="section-subtitle">
-      <h5>Eligibility</h5>
-    </div>
-
-    <div class="container">
-      <ul class="collapsible">
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Are there any requirements to participate in the program?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>Anyone who is studying grade 8,9,10,11, 12 or in their gap years is eligible to
-              participate in the program. The applicant must not have enrolled
-              in a Bachelor’s program. Students must have access to a computer
-              and a stable internet connection for video calls. Please contact
-              us if you want to participate in this program but cannot meet
-              this requirement.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">What are the time commitments like?</div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>Students are required to commit at least 13 hours per week to
-              the program. The more time you can put into the program, the
-              more you'll likely get out of the program.</span>
-          </div>
-        </li>
 
         <div class="section-subtitle">
-          <h5>Program Overview</h5>
+          <h2>Participants</h2>
         </div>
-
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">Is the program free?</div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>Yes! There is absolutely no cost to attend the program.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">Where will the program be held?</div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>This program will be conducted virtually. All communication
-              will happen via video calls.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                How will the 6 weeks of the program be organized?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>In the first week, students and mentors meet within their individual teams to discuss
-              their approach to completing the project. The teams will begin their projects on day
-              one. During this week, there will also be introductions, games, and learning sessions
-              for the entire cohort. From the 2nd to the 5th week, teams will focus on their projects
-              under the guidance of their assigned mentors. The 6th week will be dedicated to wrapping
-              up the projects. At the end of the program, there will be a project showcase featuring
-              distinguished guests. Team members will have flexible working hours but must attend
-              weekly meetings. Upon completion of the program, mentors will recommend their cohorts
-              to our internship partner companies.</span>
-          </div>
-        </li>
-        <!-- <div class="section-subtitle">
-          <h5>Selection Procedure</h5>
+        <div class="container">
+          <div class="row" id="participants"></div>
         </div>
-
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Are there any cut-offs for GPA/grades for the application
-                process?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>No, we do not have any strict cut-offs.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Is the selection process holistic or is there a certain part
-                of the application that is more important?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>All the applications will be considered on a holistic basis and
-              all the components of the application will be considered to
-              select a diverse and talented set of participants. We are
-              looking for a group with strong work-ethic, creativity, and
-              ambition.
-          </div>
-        </li>   -->
-        <div class="section-subtitle">
-          <h5>Projects</h5>
-        </div>
-
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Do we get to choose projects of our interests or are they
-                assigned randomly?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>You will be assigned to projects based on your interests and
-              skills that are shown on your application.</span>
-          </div>
-        </li>
-   <!--       <div class="section-subtitle">
-          <h5>Further Queries</h5>
-        </div>
-
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Why should I participate in the program?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>You will have the opportunity to collaborate with smart and
-              motivated individuals to work on real-world projects. You will
-              build a relationship with accomplished mentors from competitive
-              universities. You can also showcase your project in your CV to
-              gain an edge.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Is this program only for Science and Engineering students?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>No. This program will feature projects across various
-              disciplines: natural sciences, engineering, economics,
-              humanities, and so on.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                Do you give priority to the high schoolers over those in gap
-                year?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>No priorities will be given to anyone. Your selection depends
-              on your application merit.</span>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">
-            <div class="row">
-              <div class="col s10">
-                How can I contact Uunchai for any questions?
-              </div>
-              <div class="col s2">
-                <i class="right material-icons right more">expand_more</i>
-                <i class="material-icons right less" style="display: none">expand_less</i>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible-body">
-            <span>
-              You can email us at
-              <a href="mailto:incubate.nepal@gmail.com">uunchi1@gmail.com</a>
-              or message us on our
-              <a href="https://www.facebook.com/uunchaii" target="_blank">Facebook Page</a>.</span>
-          </div>
-        </li> -->
-      </ul>
+      </div>
     </div>
-  </div>
 
-  <!--    <div id="sponsor" class="sponsor-section">
-      <div class="section-title">
-        <h4>We are supported by</h4>
-      </div>
+    <hr>
 
-      <div class="container">
-        <div class="row">
-          <div class="col l2 s6 offset-l4">
-            <div class="sponsor-card">
-              <div class="sponsor-card-img">
-                <img src="assets/img/esewa.jpg" alt="Not Available" />
-              </div>
-            </div>
-          </div>
-          <div class="col l2 s6">
-            <div class="sponsor-card">
-              <div class="sponsor-card-img">
-                <img src="assets/img/karkhana.webp" alt="Not Available" />
-              </div>
-            </div>
-          </div>
+    <div id="project">
+      <h1>Project</h1>
+      <p>We are currently diving into the realms of linear algebra and programming to equip ourselves for an exciting
+        project ahead. Our goal is to merge our newfound knowledge into creating a remarkable endeavor. Through
+        understanding linear algebra's applications and harnessing programming skills, we aim to craft a project that
+        seamlessly integrates theoretical insights with practical implementation. With a passion for innovation and
+        learning, we are committed to developing a project that not only showcases our skills but also pushes the
+        boundaries of what's possible. Stay tuned as we embark on this journey to create something truly extraordinary.
+      </p>
+    </div>
+
+    <hr>
+
+    <footer id="footer">
+      <div class="footer">
+        <div id="footer_info">
+          <h1>Part of <a href="https://www.uunchai.org" target="_blank">Uunchai</a></h1>
+          <div>Innovation in bits </div>
         </div>
-      </div>
-    </div> 
-
-    <div id="contact" class="social-section scrollspy">
-      <div class="section-title">
-        <h4>Find Us On</h4>
-      </div>
-
-      <div class="row">
-        <div class="social-info-btn">
-          <div class="container">
-            <a
-              href="https://www.linkedin.com/company/incubate-nepal/"
-              target="_blank"
-              class="waves-effect waves-light social-btn"
-              ><i class="lab la-linkedin-in"></i
-            ></a>
-
-            <a
-              href="https://www.instagram.com/incubatenepal/"
-              target="_blank"
-              class="waves-effect waves-light social-btn"
-              ><i class="lab la-instagram"></i
-            ></a>
-
-            <a
-              href="https://www.facebook.com/IncubateNepal/"
-              target="_blank"
-              class="waves-effect waves-light social-btn"
-              ><i class="lab la-facebook-f"></i
-            ></a>
-            <a
-              href="mailto:incubate.nepal@gmail.com"
-              class="waves-effect waves-light social-btn"
-              ><i class="las la-envelope"></i
-            ></a>
-          </div>
+        <img src="/images/darahara.jpg" alt="darahara">
+        <p>Useful Links:</p>
+        <div>
+          <ul>
+            <li><a href="#" target="_blank">Home</a></li>
+            <!-- <li><a href="#" target="_blank">Projects</a></li> -->
+            <li><a href="#" target="_blank">About Us</a></li>
+            <li><a href="#" target="_blank">Contact Us</a></li>
+            <li><a href="https://www.github.com" target="_blank">Github</a></li>
+          </ul>
         </div>
-      </div>
-    </div>  -->
+        <div class="footer_links">
+          <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
 
-  <hr>
-  <div class="footer-section" id="contact">
-    <footer class="page-footer">
-      <div class="footer-background">
-        <div class="row">
-          <div class="col l5 s12">
-            <div class="footer-first">
-              <!-- <div class="footer-logo">
-                  <img src="assets/img/incubate_logo.png" alt="" />
-                </div> -->
-              <h5>Uunchai</h5>
-              <p>
-                Exposure for Innovation.
-              </p>
-            </div>
-          </div>
-          <div class="col l3 s12">
-            <div class="footer-second">
-              <h5 class="white-text">Quick Links</h5>
-              <ul>
-                <!-- <li>
-                    <a class="grey-text text-lighten-3" href="#project"
-                      >Highlighted Projects</a
-                    >
-                  </li> -->
-                <li>
-                  <a class="grey-text text-lighten-3" href="#about">About</a>
-                </li>
-                <!-- <li>
-                    <a class="grey-text text-lighten-3" href="#faq">FAQs</a>
-                  </li> -->
-                <li>
-                  <!-- <a class="grey-text text-lighten-3" href="#team">Team</a> -->
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col l4">
-            <div class="footer-third">
-              <h5>Contact Us</h5>
-              <ul class="contact-us">
-                <li>
-                  <i class="las la-envelope"></i> uunchai1@gmail.com
-                </li>
-                <li>
-                  <i class="las la-map-marker-alt"></i> Pennsylvania, USA
-                </li>
-              </ul>
-              <h5 class="white-text">Follow Us</h5>
-              <ul class="social-media">
-                <!-- <li>
-                    <a
-                      class="grey-text text-lighten-3"
-                      href="https://www.linkedin.com/company/incubate-nepal/"
-                      target="_blank"
-                      ><i class="lab la-linkedin-in"></i
-                    ></a>
-                  </li> -->
-                <li>
-                  <a class="grey-text text-lighten-3" href="https://www.instagram.com/uunchaii/" target="_blank"><i
-                      class="lab la-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/uunchaii/" target="_blank"><i
-                      class="lab la-facebook-f"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div class="footer-copyright">
-        <div class="center container">
-          <p>© <a href="#">Uunchai-FountED</a> - 2024 - All rights reserved</p>
-          <br>
-          <p>
-            Originally Created By: &nbsp;<i class="las la-project-diagram"></i>&nbsp; by
-            <a href="https://maheshpandit.com.np/" target="_blank">Mahesh Raj Pandit</a>
-          </p>
-          <br>
-          <p>
-            Edited By: &nbsp;<i class="las la-project-diagram"></i>&nbsp; by
-            <a href="https://gobindapoudel.com.np/" target="_blank">Goinda Prasad Paudel</a>
-          </p>
-        </div>
-      </div>
     </footer>
+  </main>
+  <div class="mobile">
+    Currently, the website is currently under-maintenance for mobile devices. Please 😁 kindly visit this website
+    through
+    your computer 🖥️ . <br>
+    For further queries: teamquantum@testmail.com
   </div>
-  <!-- scripts -->
-  <!-- <script
-      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
-      crossorigin="anonymous"
-    ></script> -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-
-  <script type="text/javascript" src="js/multi-animated-counter.js"></script>
-  <!-- <script src="js/jquery.rcounter.js"></script> -->
-
-  <script>
-    // navbar
-    $(document).ready(function () {
-      $(".sidenav").sidenav();
-    });
-
-    // sticky navbar
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop()) {
-        $("nav").addClass("navactive");
-      } else {
-        $("nav").removeClass("navactive");
-      }
-    });
-
-    // scrollspy
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy();
-    });
-
-    // counter
-    /*$(function () {
-      $(".count-num").rCounter({
-        duration: 30,
-      });
-    });*/
-
-    // modal
-    $(document).ready(function () {
-      $(".modal").modal();
-    });
-
-    //collapsible
-    $(document).ready(function () {
-      $(".collapsible").collapsible();
-    });
-
-    $(document).ready(function () {
-      $(".collapsible-header").click(function () {
-        $(".more", this).toggle();
-        $(".less", this).toggle();
-      });
-    });
-  </script>
-
-
-  <script>
-    var participants = [
-      {
-        name: "Aashish Shrestha",
-        textToShow: "Participant",
-        modalName: "aashish",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-      {
-        name: "Sakshyam Pandey",
-        modalName: "sakshyam",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-      {
-        name: "Ichchha Chhettri",
-        modalName: "ichchha",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-      {
-        name: "Aarpan Neupane",
-        modalName: "aarpan",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-      {
-        name: "Gobinda Prasad Paudel",
-        modalName: "gobinda",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-      {
-        name: "Arpita yadav",
-        modalName: "arpita",
-        photoLink: "example.com/apple",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
-      },
-    ];
-
-    var component = document.getElementById("participants");
-
-    for (var i = 0; i < participants.length; i++) {
-      component.innerHTML += `<div class="col l4 s12">
-          <div class="team-card modal-trigger" data-target="${participants[i].modalName}">
-            <div class="team-card-img">
-              <img
-                src="${participants[i].photoLink}"
-                alt="Not Available"
-              />
-            </div>
-            <div class="team-card-info">
-              <h6>Participant</h6>
-              <h4>${participants[i].name}</h4>
-            </div>
-          </div>
-        </div>
-        
-          <div id="${participants[i].modalName}" class="modal">
-        <div class="modal-content">
-          <div class="modal-img">
-            <img src="${participants[i].photoLink}" alt="" />
-            <div class="close-btn modal-close">
-              <i class="material-icons">close</i>
-            </div>
-          </div>
-          <div class="modal-content-info">
-            <h6>Participant</h6>
-            <h4>${participants[i].name}</h4>
-
-            <p> ${participants[i].description}  </p>
-          </div>
-        </div>
-      </div>`
-    }
-  </script>
-
-
 
 </body>
+
+
+<script>
+  var participants = [
+    {
+      name: "Apple",
+      textToShow: "Participant",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+    {
+      name: "Apple",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+    {
+      name: "Apple",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+    {
+      name: "Apple",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+    {
+      name: "Apple",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+    {
+      name: "Apple",
+      modalName: "apple",
+      photoLink: "https://i5.walmartimages.com/seo/Fresh-Gala-Apple-Each_f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg",
+      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
+    },
+  ];
+
+  var component = document.getElementById("participants");
+
+  for (var i = 0; i < participants.length; i++) {
+    component.innerHTML += `<div class="col l4 s12">
+        <div class="team-card modal-trigger" data-target="${participants[i].modalName}">
+          <div class="team-card-img">
+            <img
+              src="${participants[i].photoLink}"
+              alt="Not Available"
+            />
+          </div>
+          <div class="team-card-info">
+            <h6>Participant</h6>
+            <h4>${participants[i].name}</h4>
+          </div>
+        </div>
+      </div>
+      
+       
+    </div>`
+  }
+</script>
+
+<!-- <script>
+  const encodedJokes = [
+    "M’q wigvomgr e fsso sq erk-kvze. Mx’w mtuywoxqs xs tyx hsy gowsq.",
+    "Hou dou uselog a snige parks? You paratg!",
+    "K vqng oa ykaq ujg ujnc yjg ocuqyku. Kv ijqc og ja ecuwk.",
+    "Kweqiawtgv oa qmkpv ea guvkug. Kqnxwu ku vqpnqwpw.",
+    "Ykuv fqwemg cm dguo aqtkgnuka? Cp kqrcugv!",
+    "Jqw gqwu c rcpigp dkqpm? Kicpq uq uvqtqwu.",
+    "Ykuv fqwu c cqp qrckpvg ugtkv kv ecvgu? C ecu'v qrck uqpgvk!",
+    "K vqng oa dgkdvgf vq uqrc, cqw uq vqpg.",
+    "Yja fqpg ugetgva vqwi cv vjkxuq cwtg ocvkpg? Dguctg fkfg oc rwuqpgt!",
+    "K’o ugetmkep c dqqm qo cpi-itxc. Kv’u krswumvoq vq rwv fqw emuqo.",
+    "Yja fqpg ugetgva vqwi ecvcf? Dguctg vqk ugu og ugtg ucmggtciq!",
+    "Jqw fqw wugnqi c upkig rctmu? Aqw rctcvi!",
+    "K vqng oa yku ugetgva a gwyvcku? Uqgukviwuqeg!",
+    "K vqng oa cpg cpgwu uq aqqckv? Gpikuv ekr kuvvcgkqg.",
+    "K’o ugetmkep c dqqm qo cpi-itxc. Kv’u krswumvoq vq rwv fqw emuqo.",
+    "Yja fqpg ugetgva vqwi ecvcf? Dguctg vqk ugu og ugtg ucmggtciq!",
+    "Jqw fqw wugnqi c upkig rctmu? Aqw rctcvi!",
+    "K vqng oa yku ugetgva a gwyvcku? Uqgukviwuqeg!",
+    "K vqng oa cpg cpgwu uq aqqckv? Gpikuv ekr kuvvcgkqg.",
+    "K’o ugetmkep c dqqm qo cpi-itxc. Kv’u krswumvoq vq rwv fqw emuqo.",
+    "Yja fqpg ugetgva vqwi ecvcf? Dguctg vqk ugu og ugtg ucmggtciq!",
+    "Jqw fqw wugnqi c upkig rctmu? Aqw rctcvi!",
+    "K vqng oa yku ugetgva a gwyvcku? Uqgukviwuqeg!",
+    "K vqng oa cpg cpgwu uq aqqckv? Gpikuv ekr kuvvcgkqg.",
+    "K’o ugetmkep c dqqm qo cpi-itxc. Kv’u krswumvoq vq rwv fqw emuqo.",
+    "Yja fqpg ugetgva vqwi ecvcf? Dguctg vqk ugu og ugtg ucmggtciq!",
+    "Jqw fqw wugnqi c upkig rctmu? Aqw rctcvi!",
+    "K vqng oa yku ugetgva a gwyvcku? Uqgukviwuqeg!",
+    "K vqng oa cpg cpgwu uq aqqckv? Gpikuv ekr kuvvcgkqg.",
+    "K’o ugetmkep c dqqm qo cpi-itxc. Kv’u krswumvoq vq rwv fqw emuqo.",
+    "Yja fqpg ugetgva vqwi ecvcf? Dguctg vqk ugu og ugtg ucmggtciq!",
+    "Jqw fqw wugnqi c upkig rctmu? Aqw rctcvi!",
+    "K vqng oa yku ugetgva a gwyvcku? Uqgukviwuqeg!",
+    "K vqng oa cpg cpgwu uq aqqckv? Gpikuv ekr kuvvcgkqg."
+  ];
+
+
+  // Function to decode a single joke
+  function decodeJoke(encodedJoke) {
+    const shiftAmount = 2; // Shift each letter backward by 2 positions in the alphabet
+    let decodedJoke = "";
+
+    for (let i = 0; i < encodedJoke.length; i++) {
+      let char = encodedJoke.charAt(i);
+      let code = char.charCodeAt(0);
+
+      // Decode uppercase letters (A-Z)
+      if (code >= 65 && code <= 90) {
+        code = ((code - 65 - shiftAmount + 26) % 26) + 65;
+      }
+      // Decode lowercase letters (a-z)
+      else if (code >= 97 && code <= 122) {
+        code = ((code - 97 - shiftAmount + 26) % 26) + 97;
+      }
+
+      decodedJoke += String.fromCharCode(code);
+    }
+
+    return decodedJoke;
+  }
+
+
+  // Function to get jokes shown indices from local storage
+  function getJokesShownIndices() {
+    const storedIndices = localStorage.getItem('shownJokesIndices');
+    return storedIndices ? JSON.parse(storedIndices) : [];
+  }
+
+  // Function to save jokes shown indices to local storage
+  function saveJokesShownIndices(indices) {
+    localStorage.setItem('shownJokesIndices', JSON.stringify(indices));
+  }
+
+  // Function to show next joke
+  function showNextJoke() {
+    const jokesContainer = document.getElementById('jokes');
+    const jokesShownIndices = getJokesShownIndices();
+
+    // Reset shown jokes if all jokes have been shown
+    if (jokesShownIndices.length === encodedJokes.length) {
+      localStorage.removeItem('shownJokesIndices');
+      jokesContainer.textContent = "All jokes finished.";
+      return;
+    }
+
+    let nextIndex;
+    do {
+      nextIndex = Math.floor(Math.random() * encodedJokes.length);
+    } while (jokesShownIndices.includes(nextIndex));
+
+    jokesShownIndices.push(nextIndex);
+    saveJokesShownIndices(jokesShownIndices);
+
+    const decodedJoke = decodeJoke(encodedJokes[nextIndex]);
+    jokesContainer.textContent = decodedJoke;
+  }
+
+  // Initialize on page load
+  document.addEventListener('DOMContentLoaded', function () {
+    showNextJoke();
+  });
+</script> -->
 
 </html>

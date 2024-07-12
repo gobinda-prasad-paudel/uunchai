@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.nav_bar_desktop {
+  display: grid; /* Specify display type for grid layout */
+  grid-template-columns: 1fr 2fr; /* Define grid columns */
+  /* padding: 20px; */
+  height: 80px;
+  align-items: center; /* Center align items vertically */
+  background-color: #86AADF;
+}
+
+.nav_text_color {
+  color: #000;
+  z-index: -1;
+}
+
+.nav_bar_desktop img {
+  width: 76px;
+  background: #fff;
+  border: none;
+  border-radius: 400px;
+  padding: 10px;
+}
+
+.nav_elements {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  width: 100%;
+  padding-left: 40px; /* Adjust padding as needed */
+}
+
+.github {
+  display: inline-block;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+
+.github:hover {
+  
+  padding: 5px 10px;
+  background-color: #333;
+  background-image: url('https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2021/09/GitHub_logo.png?fit=1200%2C513&ssl=1');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent; 
+  clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
+}
+
+
+.github:hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #333;
+}
+
+.nav_elements li {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.nav_elements li:hover{
+  transform: scale(1.1);
+  transition: 0.1s ease;
+  color: #fff;
+}
+
+.nav_elements a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.main_content {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.main_content h1{
+  font-size: 120px;
+  text-align: center;
+  background: url(/images/text_bg.png) ;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+.buttons_main{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.buttons_main a{
+  background:#86AADF;
+  margin-left: 20px;
+  padding: 10px 20px ;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons_main a:hover {
+  transform: translateY(-100px);
+}
+
+.pm_color {
+  color: #86AADF; /* Add your custom color */
+}
+
+
+.text-6xl {
+  font-size: 4rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+hr{
+
+  border-top: 2px dashed #86AADF;
+}
+
+.meet_our_members{
+  height: auto;
+  
+}
+#main_container h1 {
+  font-size: 58px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px; 
+}
+
+.section-subtitle h2 {
+   text-align: center;
+}
+
+.col {
+  flex: 0 0 100%; 
+  padding: 0 10px;
+}
+
+
+.team-card {
+  background-color: #86aadfab;
+  /* background-color: #f0f0f0; */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-card-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.team-card-info h6 {
+  color: #888;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.team-card-info h4 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* For Project */
+#project{
+  height: 60vh;
+  margin-top: 20px;
+  
+}
+
+#project h1{
+  
+  text-align: center;
+  font-size: 58px;
+}
+#project p{
+  padding: 20px;
+}
+
+.footer{
+  display: grid;
+  height: 36vh;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows: 0.5fr  1fr 0.5fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  background: #86AADF;
+}
+
+.footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.footer h1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.footer p{
+  font-size: 30px;
+}
+.footer ul li{
+  list-style: none;
+  
+}
+.footer ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+
+.footer_links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer_links a{
+  font-size: 30px;
+  padding-left: 20px;
+  color: #000;
+}
+
+#footer_info{
+  
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+}
+
+#footer_info h1 a{
+  text-decoration: none;
+  color: #000;
+}
+
+.footer img{
+  height: 176px;
+  border-radius: 10px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  
+}
+
+.mobile{
+  font-size: 30px;
+  display: none;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: block; 
+  }
+  
+  .mobile {
+    display: none; 
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  main {
+    display: none; 
+  }
+  
+  .mobile {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .l4 {
+    flex: 0 0 33.33%;
+  }
+}
