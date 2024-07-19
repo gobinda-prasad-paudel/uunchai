@@ -350,8 +350,11 @@ hr {
 }
 
 .developer {
-  text-align: center;
-  background: #ffed00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #ffed00; */
+  border-radius: 10px;
   --s: 50px;
   --c1: #fff;
   --c2: #ffed00;
@@ -407,6 +410,8 @@ hr {
 
 .developer p {
   font-size: 20px;
+  background: #fff;
+  width: 40%;
 }
 
 .mobile {
