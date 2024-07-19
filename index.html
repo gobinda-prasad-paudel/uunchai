@@ -25,7 +25,7 @@
 <body>
   <main>
     <nav class="nav_bar_desktop">
-      <img src="/images/logo_without_text.png" alt="logo">
+      <img src="logo_without_text.png" alt="logo">
       <div>
         <ul class="nav_elements nav_text_color">
           <li><a href="#" target="_blank">Home</a></li>
@@ -38,7 +38,7 @@
     </nav>
     <nav class="nav_bar_mobile">
       <p>Menu</p>
-      <img src="/images/3.png" alt="logo" id="hamburger">
+      <img src="3.png" alt="logo" id="hamburger">
       <div id="nav_menu">
         <ul>
           <li><a class="link" href="#" target="_blank">Home</a></li>
@@ -67,7 +67,7 @@
           cryptography to drug discovery.
         </p>
       </div>
-      <div class="right"><img src="/images/text_bg.png" alt="Background Image"></div>
+      <div class="right"><img src="text_bg.png" alt="Background Image"></div>
 
       <!-- <p class="text-xl_2">
         Our journey within the Uunchai program is marked by a commitment to learning and collaboration. We engage with
@@ -151,7 +151,7 @@
           <h1>Part of <a href="https://www.uunchai.org" target="_blank">Uunchai</a></h1>
           <div>Innovation in bits </div>
         </div>
-        <img src="/images/darahara.jpg" alt="darahara">
+        <img src="darahara.jpg" alt="darahara">
         <p>Useful Links:</p>
         <div>
           <ul>
@@ -191,13 +191,13 @@
       name: "Arpan Neupane",
       textToShow: "Participant",
       modalName: "apple",
-      photoLink: "/photos/arpan.png",
+      photoLink: "arpan.png",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
     },
     {
       name: "Gobinda Prasad Paudel",
       modalName: "apple",
-      photoLink: "/photos/gobinda.jpg",
+      photoLink: "gobinda.jpg",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odio dolorem, recusandae perspiciatis alias fuga neque aliquam corporis culpa tenetur vitae delectus eaque quam quia, fugiat vero! Aut sequi molestias harum! Autem quibusdam, nemo cupiditate perferendis saepe asperiores in fugit."
     },
     {
@@ -257,13 +257,13 @@
   hamburger.addEventListener('click', () => {
     menuVisible = !menuVisible;
     navMenu.style.display = menuVisible ? 'block' : 'none';
-    hamburger.src = menuVisible ? '/images/4.png' : '/images/3.png';
+    hamburger.src = menuVisible ? '4.png' : '3.png';
   });
 
   window.addEventListener('scroll', () => {
     if (menuVisible) {
       navMenu.style.display = 'none';
-      hamburger.src = '/images/3.png';
+      hamburger.src = '3.png';
       menuVisible = false;
     }
   });
