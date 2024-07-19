@@ -9,7 +9,7 @@
 }
 
 ::selection {
-  background: #ffed00;
+  background: #d2fbd0;
 }
 
 html {
@@ -17,12 +17,12 @@ html {
 }
 
 .primary {
-  color: #ffed00;
+  color: #0d5f07;
 }
 
 .link {
   text-decoration: none;
-  color: #000;
+  color: #0d5f07;
 }
 
 .nav_bar_desktop {
@@ -31,11 +31,11 @@ html {
   /* padding: 20px; */
   height: 80px;
   align-items: center;
-  background-color: #ffed00;
+  background-color: #d2fbd0;
 }
 
 .nav_text_color {
-  color: #000;
+  color: #0d5f07;
   z-index: -1;
 }
 
@@ -57,7 +57,7 @@ html {
 
 .github {
   display: inline-block;
-  color: #000;
+  color: #0d5f07;
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -160,14 +160,14 @@ html {
 }
 
 .buttons_main a {
-  background: #ffed00;
+  background: #d2fbd0;
   margin-left: 20px;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   font-size: 20px;
   text-decoration: none;
-  color: #000;
+  color: #0d5f07;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -188,7 +188,7 @@ html {
 }
 
 hr {
-  border-top: 2px dashed #ffed00;
+  border-top: 2px dashed #d2fbd0;
 }
 
 .meet_our_members {
@@ -197,6 +197,7 @@ hr {
 #main_container h1 {
   font-size: 58px;
   text-align: center;
+  color: #0d5f07;
 }
 
 .container {
@@ -212,6 +213,7 @@ hr {
 
 .section-subtitle h2 {
   text-align: center;
+  color: #0d5f07;
 }
 
 .col {
@@ -220,7 +222,7 @@ hr {
 }
 
 .team-card {
-  background-color: #ffed00ab;
+  background-color: #d2fbd0;
   /* background-color: #f0f0f0; */
   border-radius: 8px;
   overflow: hidden;
@@ -275,6 +277,7 @@ hr {
 #project h1 {
   text-align: center;
   font-size: 58px;
+  color: #0d5f07;
 }
 #project p {
   padding: 1rem;
@@ -290,7 +293,7 @@ hr {
   justify-content: center;
   justify-items: center;
   padding: 10px;
-  background: #ffed00;
+  background: #d2fbd0;
 }
 
 .footer ul {
@@ -313,7 +316,7 @@ hr {
 }
 .footer ul li a {
   text-decoration: none;
-  color: #000;
+  color: #0d5f07;
   padding: 10px;
   font-size: 20px;
   font-weight: 600;
@@ -328,7 +331,7 @@ hr {
 .footer_links a {
   font-size: 30px;
   padding-left: 20px;
-  color: #000;
+  color: #0d5f07;
 }
 
 #footer_info {
@@ -338,7 +341,7 @@ hr {
 
 #footer_info h1 a {
   text-decoration: none;
-  color: #000;
+  color: #0d5f07;
 }
 
 .footer img {
@@ -353,11 +356,11 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: #ffed00; */
+  /* background: #D2FBD0; */
   border-radius: 10px;
   --s: 50px;
   --c1: #fff;
-  --c2: #ffed00;
+  --c2: #d2fbd0;
 
   --_s: calc(2 * var(--s)) calc(2 * var(--s));
   --_g: var(--_s) conic-gradient(at 40% 40%, #0000 75%, var(--c1) 0);
@@ -430,7 +433,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffed00;
+    background: #d2fbd0;
     padding: 10px 20px;
     height: 60px;
     position: fixed;
@@ -474,7 +477,7 @@ hr {
 
   #nav_menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: #0d5f07;
   }
 
   .nav_bar_mobile img {
@@ -589,7 +592,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffed00;
+    background: #d2fbd0;
     padding: 10px 20px;
     height: 60px;
     position: fixed;
@@ -633,7 +636,7 @@ hr {
 
   #nav_menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: #0d5f07;
     font-size: 1.8rem;
   }
 
